@@ -1,7 +1,12 @@
+
 #include <stdio.h>
 
 int main(void)
 {
-    printf("hello world\n");
+    char answer[255];
+    printf("What's your name?\n");
+    fgets(answer, sizeof(answer), stdin);
+    
+    printf("Hello %s", answer);
     return 0;
 }
