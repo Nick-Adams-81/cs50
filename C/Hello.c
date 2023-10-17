@@ -10,6 +10,8 @@ int main(void)
     printf("What is your last name?\n");
     fgets(last, sizeof(last), stdin);
 
-    printf("Hello, %s%s", first, last);
+    printf("Hello, %s %s", first, last);
+
+    
     return 0;
 }
