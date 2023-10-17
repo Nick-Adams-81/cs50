@@ -12,9 +12,13 @@ int main(void)
     {
         printf("num 1 is bigger than num 2\n");
     } 
-    else 
+    else if(num2 > num)
     {
         printf("num 2 is bigger than num 1\n");
+    }
+    else 
+    {
+        printf("both nums are equal\n");
     }
     
     return 0;
